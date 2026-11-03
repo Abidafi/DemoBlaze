@@ -1,0 +1,17 @@
+{
+  "name": "demoblaze-playwright",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript tests for DemoBlaze purchase flow",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
