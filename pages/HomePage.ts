@@ -58,10 +58,7 @@ export class HomePage {
     await this.signupModal.waitFor({ state: 'visible' });
   }
 
-  /**
-   * Fill + submit signup form.
-   * Returns the signup dialog so the test can assert the message.
-   */
+  
   async signup(user: string, pass: string) {
     await this.openSignup();
     await this.signupUsername.fill(user);
